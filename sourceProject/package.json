@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "description": "vanilla javascript functions and html boilerplates to provide students easy and quick entry to programming.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "webpack"
   },
   "author": "Chris Roode",
   "license": "GPL-3.0-or-later",
   "dependencies": {
     "jest": "^30.3.0",
-    "webpack": "^5.106.0"
+    "webpack": "^5.106.0",
+    "webpack-cli": "^7.0.2"
   }
 }
