@@ -1,0 +1,15 @@
+{
+  "name": "serverless-coding",
+  "version": "1.0.0",
+  "description": "vanilla javascript functions and html boilerplates to provide students easy and quick entry to programming.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Chris Roode",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "jest": "^30.3.0",
+    "webpack": "^5.106.0"
+  }
+}
