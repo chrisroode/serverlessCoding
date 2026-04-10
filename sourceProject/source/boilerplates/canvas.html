@@ -1,30 +1,55 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+	<html>
 	<head>
 		<title>
 			Serverless Coding Canvas Boilerplate
 		</title>
 		<style>
 			body {
+				/* The color of the bars that will appear outside the game screen. */
 				background-color: black;
+
+				/* This makes the canvas appear nice and centered on the screen. */
 				padding:0;
+				margin:0;
 				overflow:hidden;
+				display:flex;
+				align-items:center;
+				justify-content:center;
 			}
-			canvas {
-				width:100%;
-				height:100%;
+			div {
+				/* The background color of the game screen. */
+				background-color:whitesmoke;
 			}
 		</style>
 	</head>
 
 	<body>
-		
-		<canvas id="canvas"></canvas>
+		<div>
+			<canvas id="canvas"></canvas>
+		</div>
+		<script src="game_engine.js"></script>
 		<script>
-//Entry point for your own code.
+const gameEngine = load_game_engine();
+//Declare variables and other functions for your game.
 
-console.log('hello world',canvas.width,window);
+function gameInit() {
+	//Set up your game here.
+
+}
+
+function gameLoop(deltaTime) {
+	//Draw the next frame of your game.
+
+}
 
 
+
+//END OF SANDBOX, leave this code alone.
+gameEngine.setInitialization(gameInit);
+gameEngine.setGameLoop(gameLoop);
+gameEngine.start();
 
 		</script>
 	</body>

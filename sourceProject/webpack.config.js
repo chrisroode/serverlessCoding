@@ -7,9 +7,7 @@ const __dirname = path.dirname(__filename);
 
 const baseConfig = {
 	entry: {
-		happy_machine:'./source/loadHappyMachine.js',
-		hello_world:'./source/loadHelloWorld.js',
-		game_engine:'./source/loadGameEngine.js',
+		game_engine:'./source/buildGameEngine.js',
 
 	},
 	output: {

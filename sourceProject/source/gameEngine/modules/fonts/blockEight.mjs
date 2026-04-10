@@ -6,4 +6,5 @@ myFont.load().then((loadedFont) => {
 })
 
 //use this constant to declare font in the context.
-export const fontStyle_blockEight = '9px SgeBlock8';
+export const fontStyle = '9px SgeBlock8';
+export const lineHeight=10;

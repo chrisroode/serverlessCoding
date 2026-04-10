@@ -1,4 +1,6 @@
-import * as private_keyboard from './modules/keyboardInput.mjs';
+import * as module_keyboard from './modules/keyboardInput.mjs';
+import * as module_graphics2d from './modules/graphics2d.mjs';
+import * as module_mouse from './modules/mouseInput.mjs';
 
 const DEFAULT_MAXIMUM_FRAMERATE = 30;
 
@@ -36,6 +38,7 @@ const internal = {
 			throw new Error(`No game loop function has been defined for the game engine.  You need to define a function to run for every frame of your game.  Below is an example solution:${sampleSetupCode}`);
 		}
 		:()=>{},
+	log:[],
 };
 
 
@@ -68,12 +71,20 @@ function private_runLoop() {
 		return;
 	}
 	internal.lastFrameTimestamp = now;
+	module_graphics2d.private_prepareToRender();
 
 	internal.engineLoop(elapsed/1000);
-	private_keyboard.flushKeys();
+	module_graphics2d.printLogToScreen(internal.log);
+	module_graphics2d.private_finishRendering();
+	module_keyboard.flushKeys();
+	module_mouse.private_flushMouse();
 }
 
-
+/**
+ * @function gameEngine.setInitialization
+ * @description Sets an initialization function for the game engine.  This function will only be called once.  If you stop and then start the game engine, it will not call the initialization function again.
+ * @param {function} func A function that you write to set up everything for your game to run.  This function only runs once, so it can do more time consuming calculations.
+ */
 export function setInitialization(func) {
 	if (process.env.TRAINING_WHEELS
 		&& typeof func !== 'function'
@@ -83,7 +94,11 @@ export function setInitialization(func) {
 	internal.engineInit = func;
 }
 
-
+/**
+ * @function gameEngine.setGameLoop
+ * @description Sets a new function to be executed on every frame of the game.
+ * @param {function} func A function that you write to update the state of the game, calculate physics, and then draw a new frame for the user.  You have to do this fast.  If it takes too long to run this function, your game will get choppy, and the tab might even freeze.
+ */
 export function setGameLoop(func) {
 	if (process.env.TRAINING_WHEELS
 		&& typeof func !== 'function'
@@ -98,8 +113,13 @@ export function setGameLoop(func) {
 	internal.engineLoop = func;
 }
 
+/**
+ * @function gameEngine.start
+ * @description Tells the game engine to call the function you set in 'gameEngine.setInitialization()' and then starts calling the game loop you set in 'gameEngine.setGameLoop()' over and over again.  This will continue to happen until you call 'gameEngine.stop().
+ */
 export function start() {
 	setMaximumFramerate(DEFAULT_MAXIMUM_FRAMERATE);
+	module_graphics2d.private_loadCanvasAndContextQuietly();
 	internal.lastFrameTimestamp = Date.now();
 	internal.isRunning = true;
 	//Call User's init function.
@@ -108,34 +128,58 @@ export function start() {
 		internal.isInitialized = true;
 	}
 	//Start all of the engine's components.
-	private_keyboard.privateStartKeyboard();
+	module_keyboard.privateStartKeyboard();
+	module_mouse.privateStartMouse();
 	private_runLoop();
 
 }
 
-
+/**
+ * @function gameEngine.stop
+ * @description Turns off the game engine so it will stop running.  You should not need to use this function, but in case you want to stop everything, you can call it.  The game loop will not be called again until gameEngine.start() is called.
+ */
 export function stop() {
 	internal.isRunning = false;
-	private_keyboard.privateStopKeyboard();
+	module_keyboard.privateStopKeyboard();
+	module_mouse.privateStopMouse();
 }
 
 
+export function log(...args) {
+	const processedArgs = [];
+	args.forEach((arg) => {
+		processedArgs.push(`${arg}`);
+	});
+	internal.log.push(processedArgs.join(' '));
+}
 
-
+export function clearLog() {
+	internal.log = [];
+}
 
 
 
 
 export const keyboard = {
-	getKey:private_keyboard.getKey,
+	getKey:module_keyboard.getKey,
 
 }
+export const graphics = module_graphics2d.userObjectsAndFunctions;
 
 export const advanced = {
 	engine:{
 		setMaximumFramerate,
 	},
+	graphics:{
+		...module_graphics2d.userObjectsAndFunctions,
+	},
 	keyboard:{
-		getKeyMap:private_keyboard.debug__GetKeyMap,
+		getKeyMap:module_keyboard.debug__GetKeyMap,
+	},
+	mouse:{
+		getMouseState:module_mouse.debug__GetMouseState,
+		setPreventDefaultOnMouseEvents:module_mouse.setPreventDefaultOnMouseEvents,
 	}
 }
+
+
