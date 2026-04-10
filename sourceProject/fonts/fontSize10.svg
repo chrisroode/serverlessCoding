@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   height="1000"
+   width="1000"
+   sodipodi:docname="fontSize10.svg"
+   version="1.1"
+   id="svg1092"
+   viewBox="0 0 1000 1000"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="748.11898"
+     inkscape:cy="499.9245"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     showguides="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="968"
+     inkscape:window-x="1280"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     showborder="true"
+     inkscape:showpageshadow="false"
+     inkscape:pagecheckerboard="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid1968"
+       spacingx="100"
+       spacingy="100"
+       empspacing="1" />
+  </sodipodi:namedview>
+  <defs
+     id="defs4">
+    <font
+       horiz-adv-x="600"
+       id="font1151"
+       inkscape:label="font 1"><font-face
+   units-per-em="1024"
+   id="font-face1153"
+   font-family="PixelTen" />
+<missing-glyph
+   d="M 100,924 V 824 H 200 V 924 Z M 200,824 V 724 h 100 v 100 z m 100,0 H 400 V 924 H 300 Z m 100,0 V 724 h 100 v 100 z m 100,0 H 600 V 924 H 500 Z m 0,-100 V 624 h 100 v 100 z m 0,-100 H 400 V 524 h 100 z m 0,-100 V 424 h 100 v 100 z m 0,-100 H 400 V 324 h 100 z m 0,-100 V 224 h 100 v 100 z m -100,0 H 300 V 224 h 100 z m -100,0 V 424 H 200 V 324 Z m -100,0 H 100 V 224 h 100 z m 0,100 V 524 H 100 V 424 Z m 0,100 H 300 V 624 H 200 Z m 0,100 V 724 H 100 V 624 Z m 100,0 H 400 V 724 H 300 Z m 0,-100 V 424 h 100 v 100 z"
+   id="missing-glyph1155" />
+<glyph
+   glyph-name="0x40"
+   unicode="@"
+   id="glyph490" />
+<glyph
+   glyph-name="0x41"
+   id="glyph237"
+   unicode="A"
+   d="M 200,924 V 824 H 300 400 500 V 924 H 400 300 Z M 500,824 V 724 624 H 400 300 200 V 724 824 H 100 V 724 624 524 424 324 224 H 200 V 324 424 524 H 300 400 500 V 424 324 224 h 100 v 100 100 100 100 100 100 z" />
+<glyph
+   glyph-name="0x42"
+   id="glyph280"
+   unicode="B"
+   d="M 100,924 V 824 724 624 524 424 324 224 H 200 300 400 500 V 324 H 400 300 200 V 424 524 H 300 400 500 V 624 H 400 300 200 V 724 824 H 300 400 500 V 924 H 400 300 200 Z M 500,824 V 724 624 h 100 v 100 100 z m 0,-300 V 424 324 h 100 v 100 100 z" />
+<glyph
+   glyph-name="0x43"
+   id="glyph489"
+   unicode="C"
+   d="M 600,924 V 824 H 200 V 324 H 600 V 224 H 200 V 324 H 100 v 500 h 100 v 100" />
+<glyph
+   glyph-name="0x44"
+   unicode="D"
+   id="glyph491"
+   d="M 100,924 H 500 V 824 H 200 V 324 H 500 V 824 H 600 V 324 H 500 V 224 H 100" />
+<glyph
+   glyph-name="0x45"
+   unicode="E"
+   id="glyph492"
+   horiz-adv-x="400"
+   d="M 500,924 H 100 V 224 H 500 V 324 H 200 V 524 H 400 V 624 H 200 v 200 h 300 v 100" />
+<glyph
+   glyph-name="0x46"
+   unicode="F"
+   id="glyph493"
+   d="M 100,924 H 500 V 824 H 200 V 624 H 400 V 524 H 200 V 224 H 100"
+   horiz-adv-x="500" />
+<glyph
+   glyph-name="0x47"
+   unicode="G"
+   id="glyph494"
+   d="M 600,924 H 200 V 824 H 100 V 324 H 200 V 224 H 500 V 324 H 600 V 624 H 400 V 524 H 500 V 324 H 200 v 500 h 400" />
+<glyph
+   glyph-name="0x48"
+   unicode="H"
+   id="glyph495"
+   d="M 100,924 V 224 H 200 V 524 H 500 V 224 H 600 V 924 H 500 V 624 H 200 V 924 H 100" />
+<glyph
+   glyph-name="0x49"
+   unicode="I"
+   id="glyph496"
+   d="M 100,924 H 400 V 824 H 300 V 324 H 400 V 224 H 100 V 324 H 200 V 824 H 100"
+   horiz-adv-x="400" />
+<glyph
+   glyph-name="0x4a"
+   unicode="J"
+   id="glyph497"
+   d="M 300,924 H 600 V 824 H 500 V 324 H 400 V 224 H 200 V 324 H 100 V 424 H 200 V 324 H 400 V 824 H 300" />
+<glyph
+   glyph-name="0x4b"
+   unicode="K"
+   id="glyph498"
+   d="M 100,924 H 200 V 624 H 300 V 724 H 400 V 924 H 500 V 724 H 400 V 624 H 300 V 524 H 400 V 424 H 500 V 224 H 400 V 424 H 300 V 524 H 200 V 224 H 100"
+   horiz-adv-x="500" />
+<glyph
+   glyph-name="0x4c"
+   unicode="L"
+   id="glyph499"
+   d="M 100,924 V 224 H 500 V 324 H 200 V 924 H 100"
+   horiz-adv-x="500" />
+<glyph
+   glyph-name="0x4d"
+   unicode="M"
+   id="glyph500"
+   d="M 100,224 V 924 H 200 V 824 H 300 V 724 H 400 V 624 H 500 V 724 H 600 V 824 H 700 V 924 H 800 V 224 H 700 V 724 H 600 V 624 H 500 V 424 H 400 V 624 H 300 V 724 H 200 V 224"
+   horiz-adv-x="800" />
+<glyph
+   glyph-name="0x4e"
+   unicode="N"
+   id="glyph501"
+   d="M 100,224 V 924 H 200 V 824 H 300 V 724 H 400 V 524 H 500 V 924 H 600 V 224 H 500 V 324 H 400 V 524 H 300 V 724 H 200 V 224" />
+<glyph
+   glyph-name="0x4f"
+   unicode="O"
+   id="glyph502"
+   d="M 200,924 H 500 V 824 H 600 V 324 H 500 V 224 H 200 V 324 H 500 V 824 H 200 V 324 H 100 v 500 h 100" />
+<glyph
+   glyph-name="0x50"
+   unicode="P"
+   id="glyph503"
+   d="M 100,924 H 500 V 824 H 600 V 624 H 500 V 824 H 200 V 624 H 500 V 524 H 200 V 224 H 100" />
+<glyph
+   glyph-name="0x51"
+   unicode="Q"
+   id="glyph504"
+   d="M 200,924 H 500 V 824 H 600 V 424 H 500 V 824 H 200 V 324 H 400 V 424 H 500 V 324 H 600 V 224 H 500 V 324 H 400 V 224 H 200 V 324 H 100 v 500 h 100" />
+<glyph
+   glyph-name="0x52"
+   unicode="R"
+   id="glyph505"
+   d="M 100,924 H 500 V 824 H 600 V 624 H 500 V 824 H 200 V 624 H 500 V 524 H 600 V 224 H 500 V 524 H 200 V 224 H 100" />
+<glyph
+   glyph-name="0x53"
+   unicode="S"
+   id="glyph506"
+   d="M 600,924 V 824 H 200 V 624 H 500 V 524 H 600 V 324 H 500 V 224 H 100 V 324 H 500 V 524 H 200 V 624 H 100 v 200 h 100 v 100" />
+<glyph
+   glyph-name="0x54"
+   unicode="T"
+   id="glyph507"
+   d="M 100,924 H 600 V 824 H 400 V 224 H 300 V 824 H 100" />
+<glyph
+   glyph-name="0x55"
+   unicode="U"
+   id="glyph508"
+   d="M 100,924 V 324 H 200 V 224 H 500 V 324 H 600 V 924 H 500 V 324 H 200 v 600" />
+<glyph
+   glyph-name="0x56"
+   unicode="V"
+   id="glyph509"
+   d="M 100,924 V 624 H 200 V 424 H 300 V 224 H 400 V 424 H 500 V 624 H 600 V 924 H 500 V 624 H 400 V 424 H 300 V 624 H 200 v 300" />
+<glyph
+   glyph-name="0x57"
+   unicode="W"
+   id="glyph510"
+   d="M 100,924 H 200 V 324 H 400 V 624 H 500 V 324 H 700 V 924 H 800 V 324 H 700 V 224 H 500 V 324 H 400 V 224 H 200 V 324 H 100"
+   horiz-adv-x="800.00" />
+<glyph
+   glyph-name="0x58"
+   unicode="X"
+   id="glyph511"
+   d="M 100,924 H 200 V 724 H 300 V 624 H 400 V 724 H 500 V 924 H 600 V 724 H 500 V 624 H 400 V 524 H 500 V 424 H 600 V 224 H 500 V 424 H 400 V 524 H 300 V 424 H 200 V 224 H 100 V 424 H 200 V 524 H 300 V 624 H 200 V 724 H 100" />
+<glyph
+   glyph-name="0x59"
+   unicode="Y"
+   id="glyph512"
+   d="M 100,924 H 200 V 624 H 300 V 524 H 400 V 624 H 500 V 924 H 600 V 624 H 500 V 524 H 400 V 224 H 300 V 524 H 200 V 624 H 100" />
+<glyph
+   glyph-name="0x5a"
+   unicode="Z"
+   id="glyph513"
+   d="M 100,924 H 600 V 724 H 500 V 624 H 400 V 524 H 300 V 424 H 200 V 324 H 600 V 224 H 100 V 424 H 200 V 524 H 300 V 624 H 400 V 724 H 500 V 824 H 100" />
+<glyph
+   glyph-name="0x5b"
+   unicode="["
+   id="glyph514" />
+<glyph
+   glyph-name="0x5c"
+   unicode="\"
+   id="glyph515" />
+<glyph
+   glyph-name="0x5d"
+   unicode="]"
+   id="glyph516" />
+<glyph
+   glyph-name="0x5e"
+   unicode="^"
+   id="glyph517" />
+<glyph
+   glyph-name="0x5f"
+   unicode="_"
+   id="glyph518" />
+<glyph
+   glyph-name="0x60"
+   unicode="`"
+   id="glyph519" />
+<glyph
+   glyph-name="0x61"
+   unicode="a"
+   id="glyph520" />
+<glyph
+   glyph-name="0x62"
+   unicode="b"
+   id="glyph521" />
+<glyph
+   glyph-name="0x63"
+   unicode="c"
+   id="glyph522" />
+<glyph
+   glyph-name="0x64"
+   unicode="d"
+   id="glyph523" />
+<glyph
+   glyph-name="0x65"
+   unicode="e"
+   id="glyph524" />
+<glyph
+   glyph-name="0x66"
+   unicode="f"
+   id="glyph525" />
+<glyph
+   glyph-name="0x67"
+   unicode="g"
+   id="glyph526" />
+<glyph
+   glyph-name="0x68"
+   unicode="h"
+   id="glyph527" />
+<glyph
+   glyph-name="0x69"
+   unicode="i"
+   id="glyph528" />
+<glyph
+   glyph-name="0x6a"
+   unicode="j"
+   id="glyph529" />
+<glyph
+   glyph-name="0x6b"
+   unicode="k"
+   id="glyph530" />
+<glyph
+   glyph-name="0x6c"
+   unicode="l"
+   id="glyph531" />
+<glyph
+   glyph-name="0x6d"
+   unicode="m"
+   id="glyph532" />
+<glyph
+   glyph-name="0x6e"
+   unicode="n"
+   id="glyph533" />
+<glyph
+   glyph-name="0x6f"
+   unicode="o"
+   id="glyph534" />
+<glyph
+   glyph-name="0x70"
+   unicode="p"
+   id="glyph535" />
+<glyph
+   glyph-name="0x71"
+   unicode="q"
+   id="glyph536" />
+<glyph
+   glyph-name="0x72"
+   unicode="r"
+   id="glyph537" />
+<glyph
+   glyph-name="0x73"
+   unicode="s"
+   id="glyph538" />
+<glyph
+   glyph-name="0x74"
+   unicode="t"
+   id="glyph539" />
+<glyph
+   glyph-name="0x75"
+   unicode="u"
+   id="glyph540" />
+<glyph
+   glyph-name="0x76"
+   unicode="v"
+   id="glyph541" />
+<glyph
+   glyph-name="0x77"
+   unicode="w"
+   id="glyph542" />
+<glyph
+   glyph-name="0x78"
+   unicode="x"
+   id="glyph543" />
+<glyph
+   glyph-name="0x79"
+   unicode="y"
+   id="glyph544" />
+<glyph
+   glyph-name="0x7a"
+   unicode="z"
+   id="glyph545" />
+<glyph
+   glyph-name="0x7b"
+   unicode="{"
+   id="glyph546" />
+<glyph
+   glyph-name="0x7c"
+   unicode="|"
+   id="glyph547" />
+<glyph
+   glyph-name="0x7d"
+   unicode="}"
+   id="glyph548" />
+<glyph
+   glyph-name="0x7e"
+   unicode="-"
+   id="glyph549" />
+<glyph
+   glyph-name="0x20"
+   unicode=" "
+   id="glyph550" />
+<glyph
+   glyph-name="0x21"
+   unicode="!"
+   id="glyph551" />
+<glyph
+   glyph-name="0x22"
+   id="glyph552"
+   unicode="&quot;" />
+<glyph
+   glyph-name="0x23"
+   unicode="#"
+   id="glyph553" />
+<glyph
+   glyph-name="0x24"
+   unicode="$"
+   id="glyph554" />
+<glyph
+   glyph-name="0x25"
+   unicode="%"
+   id="glyph555" />
+<glyph
+   glyph-name="0x26"
+   id="glyph556"
+   unicode="&amp;" />
+<glyph
+   glyph-name="0x27"
+   unicode="'"
+   id="glyph557" />
+<glyph
+   glyph-name="0x28"
+   unicode="("
+   id="glyph558" />
+<glyph
+   glyph-name="0x29"
+   unicode=")"
+   id="glyph559" />
+<glyph
+   glyph-name="0x2a"
+   unicode="*"
+   id="glyph560" />
+<glyph
+   glyph-name="0x2b"
+   unicode="+"
+   id="glyph561" />
+<glyph
+   glyph-name="0x2c"
+   unicode=","
+   id="glyph562" />
+<glyph
+   glyph-name="0x2d"
+   unicode="-"
+   id="glyph563" />
+<glyph
+   glyph-name="0x2e"
+   unicode="."
+   id="glyph564" />
+<glyph
+   glyph-name="0x2f"
+   unicode="/"
+   id="glyph565" />
+<glyph
+   glyph-name="0x30"
+   unicode="0"
+   id="glyph566" />
+<glyph
+   glyph-name="0x31"
+   unicode="1"
+   id="glyph567" />
+<glyph
+   glyph-name="0x32"
+   unicode="2"
+   id="glyph568" />
+<glyph
+   glyph-name="0x33"
+   unicode="3"
+   id="glyph569" />
+<glyph
+   glyph-name="0x34"
+   unicode="4"
+   id="glyph570" />
+<glyph
+   glyph-name="0x35"
+   unicode="5"
+   id="glyph571" />
+<glyph
+   glyph-name="0x36"
+   unicode="6"
+   id="glyph572" />
+<glyph
+   glyph-name="0x37"
+   unicode="7"
+   id="glyph573" />
+<glyph
+   glyph-name="0x38"
+   unicode="8"
+   id="glyph574" />
+<glyph
+   glyph-name="0x39"
+   unicode="9"
+   id="glyph575" />
+<glyph
+   glyph-name="0x3a"
+   unicode=":"
+   id="glyph576" />
+<glyph
+   glyph-name="0x3b"
+   unicode=";"
+   id="glyph577" />
+<glyph
+   glyph-name="0x3c"
+   unicode=""
+   id="glyph412" />
+&quot; id=&quot;glyph578&quot; /&gt;
+      <glyph
+   glyph-name="0x3d"
+   unicode="="
+   id="glyph579" />
+<glyph
+   glyph-name="0x3e"
+   unicode="&gt;"
+   id="glyph580" />
+<glyph
+   glyph-name="0x3f"
+   unicode="?"
+   id="glyph581" />
+</font>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <path
+       id="path199"
+       style="display:none;fill:#000000;fill-opacity:0.5"
+       d="M 200,100 V 200 H 300 400 500 V 100 H 400 300 Z M 500,200 V 300 400 H 400 300 200 V 300 200 H 100 V 300 400 500 600 700 800 H 200 V 700 600 500 H 300 400 500 V 600 700 800 H 600 V 700 600 500 400 300 200 Z"
+       inkscape:label="A"
+       sodipodi:insensitive="true" />
+    <path
+       id="path3158"
+       style="display:none;fill:#030059;fill-opacity:0.5"
+       d="M 100,100 V 200 H 200 V 100 Z M 200,200 V 300 H 300 V 200 Z m 100,0 H 400 V 100 H 300 Z m 100,0 V 300 H 500 V 200 Z m 100,0 H 600 V 100 H 500 Z m 0,100 V 400 H 600 V 300 Z m 0,100 H 400 v 100 h 100 z m 0,100 V 600 H 600 V 500 Z m 0,100 H 400 v 100 h 100 z m 0,100 V 800 H 600 V 700 Z m -100,0 H 300 v 100 h 100 z m -100,0 V 600 H 200 v 100 z m -100,0 H 100 v 100 h 100 z m 0,-100 V 500 H 100 v 100 z m 0,-100 H 300 V 400 H 200 Z m 0,-100 V 300 H 100 v 100 z m 100,0 H 400 V 300 H 300 Z m 0,100 V 600 H 400 V 500 Z"
+       inkscape:label="Missing"
+       sodipodi:insensitive="true" />
+    <path
+       id="path239"
+       style="display:none;fill:#030059;fill-opacity:0.5"
+       d="M 100,100 V 200 300 400 500 600 700 800 H 200 300 400 500 V 700 H 400 300 200 V 600 500 H 300 400 500 V 400 H 400 300 200 V 300 200 H 300 400 500 V 100 H 400 300 200 Z M 500,200 V 300 400 H 600 V 300 200 Z m 0,300 V 600 700 H 600 V 600 500 Z"
+       inkscape:label="B"
+       sodipodi:insensitive="true" />
+    <path
+       style="font-variation-settings:normal;display:none;opacity:1;vector-effect:none;fill:#b5c9ff;fill-opacity:1;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="M 500,100 V 200 H 200 V 700 H 500 V 800 H 200 V 700 H 100 V 200 H 200 V 100"
+       id="path372"
+       inkscape:label="C"
+       sodipodi:insensitive="true"
+       sodipodi:nodetypes="cccccccccccc" />
+    <path
+       style="font-variation-settings:normal;display:none;opacity:1;vector-effect:none;fill:#b5c9ff;fill-opacity:1;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="M 100,100 H 500 V 200 H 200 V 700 H 500 V 200 H 600 V 700 H 500 V 800 H 100"
+       id="path847"
+       inkscape:label="D"
+       sodipodi:insensitive="true" />
+    <path
+       style="font-variation-settings:normal;display:none;opacity:1;vector-effect:none;fill:#b5c9ff;fill-opacity:1;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="M 500,100 H 100 V 800 H 500 V 700 H 200 V 500 H 400 V 400 H 200 V 200 H 500 V 100"
+       id="path995"
+       inkscape:label="E"
+       sodipodi:nodetypes="ccccccccccccc"
+       sodipodi:insensitive="true" />
+    <path
+       style="font-variation-settings:normal;display:none;opacity:1;vector-effect:none;fill:#b5c9ff;fill-opacity:1;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="M 100,100 H 500 V 200 H 200 V 400 H 400 V 500 H 200 V 800 H 100"
+       id="path997"
+       inkscape:label="F"
+       sodipodi:nodetypes="cccccccccc"
+       sodipodi:insensitive="true" />
+    <path
+       style="font-variation-settings:normal;display:none;opacity:1;vector-effect:none;fill:#b5c9ff;fill-opacity:1;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="M 600,100 H 200 V 200 H 100 V 700 H 200 V 800 H 500 V 700 H 600 V 400 H 400 V 500 H 500 V 700 H 200 V 200 h 400"
+       id="path999"
+       inkscape:label="G"
+       sodipodi:nodetypes="cccccccccccccccccc"
+       sodipodi:insensitive="true" />
+    <path
+       style="font-variation-settings:normal;display:none;opacity:1;vector-effect:none;fill:#b5c9ff;fill-opacity:1;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="M 100,100 V 800 H 200 V 500 H 500 V 800 H 600 V 100 H 500 V 400 H 200 V 100 H 100"
+       id="path1001"
+       inkscape:label="H"
+       sodipodi:insensitive="true" />
+    <path
+       style="font-variation-settings:normal;display:none;opacity:1;vector-effect:none;fill:#b5c9ff;fill-opacity:1;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="M 100,100 H 400 V 200 H 300 V 700 H 400 V 800 H 100 V 700 H 200 V 200 H 100"
+       id="path1003"
+       inkscape:label="I"
+       sodipodi:nodetypes="cccccccccccc"
+       sodipodi:insensitive="true" />
+    <path
+       style="font-variation-settings:normal;display:none;opacity:1;vector-effect:none;fill:#b5c9ff;fill-opacity:1;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="M 300,100 H 600 V 200 H 500 V 700 H 400 V 800 H 200 V 700 H 100 V 600 H 200 V 700 H 400 V 200 H 300"
+       id="path1005"
+       inkscape:label="J"
+       sodipodi:nodetypes="cccccccccccccccc"
+       sodipodi:insensitive="true" />
+    <path
+       style="font-variation-settings:normal;display:none;opacity:1;vector-effect:none;fill:#b5c9ff;fill-opacity:1;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="M 100,100 H 200 V 400 H 300 V 300 H 400 V 100 H 500 V 300 H 400 V 400 H 300 V 500 H 400 V 600 H 500 V 800 H 400 V 600 H 300 V 500 H 200 V 800 H 100"
+       id="path1007"
+       inkscape:label="K"
+       sodipodi:insensitive="true" />
+    <path
+       style="font-variation-settings:normal;display:none;opacity:1;vector-effect:none;fill:#b5c9ff;fill-opacity:1;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="M 100,100 V 800 H 500 V 700 H 200 V 100 H 100"
+       id="path1009"
+       inkscape:label="L"
+       sodipodi:insensitive="true" />
+    <path
+       style="font-variation-settings:normal;display:none;opacity:1;vector-effect:none;fill:#b5c9ff;fill-opacity:1;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="M 100,800 V 100 H 200 V 200 H 300 V 300 H 400 V 400 H 500 V 300 H 600 V 200 H 700 V 100 H 800 V 800 H 700 V 300 H 600 V 400 H 500 V 600 H 400 V 400 H 300 V 300 H 200 v 500"
+       id="path1275"
+       inkscape:label="M"
+       sodipodi:insensitive="true" />
+    <path
+       style="font-variation-settings:normal;display:none;opacity:1;vector-effect:none;fill:#b5c9ff;fill-opacity:1;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="M 100,800 V 100 H 200 V 200 H 300 V 300 H 400 V 500 H 500 V 100 H 600 V 800 H 500 V 700 H 400 V 500 H 300 V 300 H 200 v 500"
+       id="path1390"
+       inkscape:label="N"
+       sodipodi:insensitive="true" />
+    <path
+       style="font-variation-settings:normal;display:none;opacity:1;vector-effect:none;fill:#b5c9ff;fill-opacity:1;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="M 200,100 H 500 V 200 H 600 V 700 H 500 V 800 H 200 V 700 H 500 V 200 H 200 V 700 H 100 V 200 h 100"
+       id="path4628"
+       inkscape:label="O"
+       sodipodi:insensitive="true" />
+    <path
+       style="font-variation-settings:normal;display:none;opacity:1;vector-effect:none;fill:#b5c9ff;fill-opacity:1;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="M 100,100 H 500 V 200 H 600 V 400 H 500 V 200 H 200 V 400 H 500 V 500 H 200 V 800 H 100"
+       id="path4630"
+       inkscape:label="P"
+       sodipodi:insensitive="true" />
+    <path
+       style="font-variation-settings:normal;display:none;opacity:1;vector-effect:none;fill:#b5c9ff;fill-opacity:1;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="M 200,100 H 500 V 200 H 600 V 600 H 500 V 200 H 200 V 700 H 400 V 600 H 500 V 700 H 600 V 800 H 500 V 700 H 400 V 800 H 200 V 700 H 100 V 200 h 100"
+       id="path4665"
+       inkscape:label="Q"
+       sodipodi:insensitive="true" />
+    <path
+       style="font-variation-settings:normal;display:none;opacity:1;vector-effect:none;fill:#b5c9ff;fill-opacity:1;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="M 100,100 H 500 V 200 H 600 V 400 H 500 V 200 H 200 V 400 H 500 V 500 H 600 V 800 H 500 V 500 H 200 V 800 H 100"
+       id="path4667"
+       inkscape:label="R"
+       sodipodi:insensitive="true" />
+    <path
+       style="font-variation-settings:normal;display:none;opacity:1;vector-effect:none;fill:#b5c9ff;fill-opacity:1;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="M 600,100 V 200 H 200 V 400 H 500 V 500 H 600 V 700 H 500 V 800 H 100 V 700 H 500 V 500 H 200 V 400 H 100 V 200 H 200 V 100"
+       id="path4669"
+       inkscape:label="S"
+       sodipodi:insensitive="true" />
+    <path
+       style="font-variation-settings:normal;display:none;opacity:1;vector-effect:none;fill:#b5c9ff;fill-opacity:1;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="M 100,100 H 600 V 200 H 400 V 800 H 300 V 200 H 100"
+       id="path4671"
+       inkscape:label="T"
+       sodipodi:insensitive="true" />
+    <path
+       style="font-variation-settings:normal;display:none;opacity:1;vector-effect:none;fill:#b5c9ff;fill-opacity:1;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="M 100,100 V 700 H 200 V 800 H 500 V 700 H 600 V 100 H 500 V 700 H 200 V 100"
+       id="path4673"
+       inkscape:label="U"
+       sodipodi:insensitive="true" />
+    <path
+       style="font-variation-settings:normal;display:none;opacity:1;vector-effect:none;fill:#b5c9ff;fill-opacity:1;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="M 100,100 V 400 H 200 V 600 H 300 V 800 H 400 V 600 H 500 V 400 H 600 V 100 H 500 V 400 H 400 V 600 H 300 V 400 H 200 V 100"
+       id="path4708"
+       inkscape:label="V"
+       sodipodi:insensitive="true" />
+    <path
+       style="font-variation-settings:normal;display:none;opacity:1;vector-effect:none;fill:#b5c9ff;fill-opacity:1;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="M 100,100 H 200 V 700 H 400 V 400 H 500 V 700 H 700 V 100 H 800 V 700 H 700 V 800 H 500 V 700 H 400 V 800 H 200 V 700 H 100"
+       id="path4743"
+       inkscape:label="W"
+       sodipodi:insensitive="true" />
+    <path
+       style="font-variation-settings:normal;display:none;opacity:1;vector-effect:none;fill:#b5c9ff;fill-opacity:1;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="M 100,100 H 200 V 300 H 300 V 400 H 400 V 300 H 500 V 100 H 600 V 300 H 500 V 400 H 400 V 500 H 500 V 600 H 600 V 800 H 500 V 600 H 400 V 500 H 300 V 600 H 200 V 800 H 100 V 600 H 200 V 500 H 300 V 400 H 200 V 300 H 100"
+       id="path4745"
+       inkscape:label="X"
+       sodipodi:insensitive="true" />
+    <path
+       style="font-variation-settings:normal;display:none;opacity:1;vector-effect:none;fill:#b5c9ff;fill-opacity:1;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="M 100,100 H 200 V 400 H 300 V 500 H 400 V 400 H 500 V 100 H 600 V 400 H 500 V 500 H 400 V 800 H 300 V 500 H 200 V 400 H 100"
+       id="path4747"
+       sodipodi:nodetypes="cccccccccccccccccccc"
+       inkscape:label="Y"
+       sodipodi:insensitive="true" />
+    <path
+       style="font-variation-settings:normal;display:none;opacity:1;vector-effect:none;fill:#b5c9ff;fill-opacity:1;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="M 100,100 H 600 V 300 H 500 V 400 H 400 V 500 H 300 V 600 H 200 V 700 H 600 V 800 H 100 V 600 H 200 V 500 H 300 V 400 H 400 V 300 H 500 V 200 H 100"
+       id="path4991"
+       inkscape:label="Z"
+       sodipodi:insensitive="true" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Guides"
+     sodipodi:insensitive="true">
+    <path
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.321784;stroke:none;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       d="M 100,100 H 600 V 800 H 100"
+       id="path1459"
+       inkscape:label="BasicBox" />
+  </g>
+</svg>
