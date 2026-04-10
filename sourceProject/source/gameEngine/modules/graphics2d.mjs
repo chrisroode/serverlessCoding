@@ -14,16 +14,8 @@ export const userObjectsAndFunctions = {
 }
 
 
-/*
-const _par = { //pixel aspet ratios.
-	snes:7/6, //256x224 resolution on a 4:3 display.  Pixels are 7/6 ratio.
-	apple2:36/32, //280x192 resolution on a 4:3 display.
-	cPet:43/45,
-	atari:22/13,
-	c64:3/4,
-	ibm80:24/25, //320x200 resolution on a 4:3 display. pixels are 24/25
-	square:1,
-};*/
+
+
 
 //Crop modes
 
@@ -205,19 +197,20 @@ export function private_finishRendering() {
  * @param {integer} x A range from 1-1920 to set the screen width. To set only width, use setScreenWidth.
  * @param {integer} y A range from 1-1920 to set the screen height.  To set only height, use setScreenHeight
  */
-export function setScreenWidth(x=internal.screenWidth) {
+export function setScreenWidth(x=internal.width) {
+	console.log(x, internal);
 	if (typeof x === 'number' 
 		&& Math.floor(x) > 0
 		&& x < 1920
 	) {
-		internal.screenWidth = x;
+		internal.width = x;
 	}}
-export function setScreenHeight(y=internal.screenHeight) {
+export function setScreenHeight(y=internal.height) {
 	if (typeof y === 'number'
 		&& Math.floor(y) > 0
 		&& y < 1920
 	) {
-		internal.screenHeight = y;
+		internal.height = y;
 	}
 }
 
@@ -227,16 +220,59 @@ export function setScreenHeight(y=internal.screenHeight) {
  * @param {integer} y A range from 1-1920 to set the screen height.  To set only height, use setScreenHeight
  */
 
-export function setScreenDimensions(x=internal.screenWidth,y=internal.screenHeight) {
+export function setScreenDimensions(x=internal.width,y=internal.height) {
 	setScreenWidth(x);
 	setScreenHeight(y);
 }
 
+export function setPixelAspectRatio(width,height=1) {
+	internal.pixelAspect = width/height;
+}
 
-userObjectsAndFunctions.setScreenDimensions = setScreenDimensions;
-userObjectsAndFunctions.setScreenWidth = setScreenWidth;
-userObjectsAndFunctions.setScreenHeight = setScreenHeight;
-userObjectsAndFunctions.setCropMode = setCropMode;
+export function loadRetroScreen(scr) {
+	const _par = { //pixel aspet ratios.
+		snes:{
+			pixelRatio:7/6,
+			width:256,
+			height:224,
+		},
+		apple2:{
+			pixelRatio:36/32,
+			width:280,
+			height:192,
+		},
+		cPet:{
+			pixelRatio:43/45,
+			width:200,
+			height:192,
+		},
+		atari:{
+			pixelRatio:22/13,
+			width:160,
+			height:192,
+		},
+		c64:{
+			pixelRatio:3/4,
+			width:320,
+			height:200,
+		},
+		ibm:{
+			pixelRatio:24/25,
+			width:320,
+			height:200,
+		},
+	};
+	if (typeof _par[scr] === 'undefined') {
+		if (process.env.TRAINING_WHEELS) {
+			console.error(`loadRetroScreen() was unable to load the screen '${scr}.'  The retro screens you may use are '${Object.keys(_par).join(`', '`)}.'`)
+		}
+		return;
+	}
+	internal.width = _par[scr].width;
+	internal.height = _par[scr].height;
+	internal.pixelAspect = _par[scr].pixelAspect;
+}
+
 
 
 export function printLogToScreen(arr) {
@@ -255,3 +291,11 @@ export function printLogToScreen(arr) {
 	});
 	userObjectsAndFunctions.context.restore();
 }
+
+
+userObjectsAndFunctions.setScreenDimensions = setScreenDimensions;
+userObjectsAndFunctions.setScreenWidth = setScreenWidth;
+userObjectsAndFunctions.setScreenHeight = setScreenHeight;
+userObjectsAndFunctions.setCropMode = setCropMode;
+userObjectsAndFunctions.setPixelAspectRatio = setPixelAspectRatio;
+userObjectsAndFunctions.loadRetroScreen = loadRetroScreen;
