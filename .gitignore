@@ -1,3 +1,6 @@
 sourceProject/node_modules
 sourceProject/build
 sourceProject/documentation
+sourceProject/source/tests/*.js
+sourceProject/demos/*.js
+sourceProject/source/boilerplates/*.js

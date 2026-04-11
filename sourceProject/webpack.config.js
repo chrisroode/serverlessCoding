@@ -17,7 +17,7 @@ const baseConfig = {
 }
 
 export default [
-	{
+	{ //minified in build folder.
 		...baseConfig,
 
 		output: {
@@ -35,7 +35,7 @@ export default [
 			})
 		]
 	},
-	{
+	{ //normal in build folder.
 		...baseConfig,
 
 		output: {
@@ -48,9 +48,66 @@ export default [
 		},
 		plugins:[
 			new webpack.DefinePlugin({
+				'process.env.TRAINING_WHEELS':JSON.stringify(false),
+				'process.env.IS_WEBPACK':JSON.stringify(true),
+			})
+		]
+	},
+	{ //minified build for tests.
+		...baseConfig,
+
+		output: {
+			...baseConfig.output,
+			path:path.resolve(__dirname,'source/tests'),
+			filename:'[name].js',
+		},
+		mode:'production',
+		optimization: {
+			minimize:true,
+		},
+		plugins:[
+			new webpack.DefinePlugin({
 				'process.env.TRAINING_WHEELS':JSON.stringify(true),
 				'process.env.IS_WEBPACK':JSON.stringify(true),
 			})
 		]
-	}
+	},
+	{ //minified build for demos.
+		...baseConfig,
+
+		output: {
+			...baseConfig.output,
+			path:path.resolve(__dirname,'demos'),
+			filename:'[name].js',
+		},
+		mode:'production',
+		optimization: {
+			minimize:true,
+		},
+		plugins:[
+			new webpack.DefinePlugin({
+				'process.env.TRAINING_WHEELS':JSON.stringify(true),
+				'process.env.IS_WEBPACK':JSON.stringify(true),
+			})
+		]
+	},
+	{ //minified build for boilerplates.
+		...baseConfig,
+
+		output: {
+			...baseConfig.output,
+			path:path.resolve(__dirname,'source/boilerplates'),
+			filename:'[name].js',
+		},
+		mode:'production',
+		optimization: {
+			minimize:true,
+		},
+		plugins:[
+			new webpack.DefinePlugin({
+				'process.env.TRAINING_WHEELS':JSON.stringify(true),
+				'process.env.IS_WEBPACK':JSON.stringify(true),
+			})
+		]
+	},
 ];

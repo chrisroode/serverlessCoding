@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>
+			Palette Test
+		</title>
+		<style>
+			body {
+				/* The color of the bars that will appear outside the game screen. */
+				background-color: black;
+
+				/* This makes the canvas appear nice and centered on the screen. */
+				padding:0;
+				margin:0;
+				overflow:hidden;
+				display:flex;
+				align-items:center;
+				justify-content:center;
+				height:100vh;
+			}
+			div {
+				/* The background color of the game screen. */
+				background-color:black;
+			}
+			
+		</style>
+	</head>
+
+	<body>
+		<div>
+			<canvas id="canvas"></canvas>
+		</div>
+		
+		<script src="game_engine.js"></script>
+		<script>
+
+
+
+
+
+const palette = [
+	'0123456789',
+	'abcdefghijkl',
+	'mnopqrstuvwx',
+	'ABCDEFGHIJKL',
+	'MNOPQRSTUVWX',
+	'yzYZ',
+	' *()',
+]
+
+const dots = [];
+let idx = 0;
+
+function gameInit() {
+	//no initializastion
+}
+
+function drawPalette(context,arr,x,y,backgroundColor='#000',foregroundColor="#aaa") {
+	const LINE_HEIGHT = 10;
+	const SWATCH_SIZE = 10;
+	context.save();
+	const padding = 4;
+	const gap = 1;
+	arr.forEach((line,i) => {
+		line.split('').forEach((char,j) => {
+			context.fillStyle = gameEngine.graphics.getColor(char);
+			context.fillRect(x+j*(SWATCH_SIZE+gap),y+LINE_HEIGHT+i*(SWATCH_SIZE+LINE_HEIGHT+gap+8),SWATCH_SIZE,SWATCH_SIZE);
+			context.fillStyle = backgroundColor;
+			context.fillRect(x+j*(SWATCH_SIZE+gap),y+i*(SWATCH_SIZE+LINE_HEIGHT+gap+8),SWATCH_SIZE,SWATCH_SIZE);
+			context.fillStyle = foregroundColor;
+			context.fillText(char,x+1+j*(SWATCH_SIZE+gap),y+LINE_HEIGHT-2+i*(SWATCH_SIZE+LINE_HEIGHT+gap+8),SWATCH_SIZE,SWATCH_SIZE);
+			
+		})
+	});
+	return;
+}
+
+function gameLoop(deltaTime) {	
+	const context = gameEngine.graphics.context;
+	gameEngine.clearLog();
+	gameEngine.log('Serverless Game Engine Palette')
+	context.clearRect(0,0,canvas.width,canvas.heigt);
+	drawPalette(context,palette,4,16);
+}
+
+gameEngine.setInitialization(gameInit);
+gameEngine.setGameLoop(gameLoop);
+gameEngine.start();
+
+
+
+		</script>
+	</body>
+</html>

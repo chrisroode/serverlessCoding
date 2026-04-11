@@ -151,7 +151,7 @@ export function privateStopKeyboard() {
 
 /* Thank you Mr. GPT for the help.  TODO: Run Code review...the humans must understand what the machines do. */
 function handleConsoleEntry(e, state, { onEnter }) {
-	const state = internal.consoleState;
+	//const state = internal.consoleState;
 	const { key, ctrlKey, metaKey } = e;
 
 	// Prevent browser behavior for controlled keys

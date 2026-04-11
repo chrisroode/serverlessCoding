@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>
+			Farkle
+		</title>
+		<style>
+			body {
+				/* The color of the bars that will appear outside the game screen. */
+				background-color: black;
+
+				/* This makes the canvas appear nice and centered on the screen. */
+				padding:0;
+				margin:0;
+				overflow:hidden;
+				display:flex;
+				align-items:center;
+				justify-content:center;
+				height:100vh;
+			}
+			div {
+				/* The background color of the game screen. */
+				background-color:whitesmoke;
+			}
+			
+		</style>
+	</head>
+
+	<body>
+		<div>
+			<canvas id="canvas"></canvas>
+		</div>
+		
+		<script src="game_engine.js"></script>
+		<script>
+
+
+
+
+
+const strings = [
+	'Aa Bb Cc Dd Ee Ff',
+	'Gg Hh Ii Jj Kk Ll',
+	'Mm Nn Oo Pp Qq Rr',
+	'Ss Tt Uu Vv Ww Xx',
+	'Yy Zz  1234567890',
+	'~`!@#$%^&*-_=+/?.',
+	`{} <> () []"':;\\|`,
+]
+
+const dots = [];
+let idx = 0;
+
+function gameInit() {
+	//no initializastion
+}
+
+function drawTextBox(context,arr,x,y,backgroundColor='#000',foregroundColor="#fff") {
+	const LINE_HEIGHT = 10;
+	context.save();
+	let maxChars = 0;
+	let lines = arr.length;
+	arr.forEach((e) => {
+		maxChars = Math.max(e.length,maxChars);
+	});
+	const padding = 4;
+	const width = maxChars*8+padding*2;
+	const height = lines*LINE_HEIGHT+padding*2;
+	context.fillStyle = backgroundColor;
+	context.fillRect(x,y,width,height);
+	context.fillStyle = foregroundColor;
+	arr.forEach((e,i) => {
+		context.fillRect(x+padding/2,y+i*LINE_HEIGHT+LINE_HEIGHT,1,1)
+		context.fillText(e,x+padding,y+i*LINE_HEIGHT+LINE_HEIGHT);
+	});
+	context.restore();
+}
+
+function gameLoop(deltaTime) {	
+	const context = gameEngine.graphics.context;
+	gameEngine.clearLog();
+	gameEngine.log('default')
+	context.clearRect(0,0,canvas.width,canvas.heigt);
+	drawTextBox(context,strings,4,16,'black','white');
+	drawTextBox(context,strings,148,16,'white','black');
+}
+
+gameEngine.setInitialization(gameInit);
+gameEngine.setGameLoop(gameLoop);
+gameEngine.start();
+
+
+
+		</script>
+	</body>
+</html>

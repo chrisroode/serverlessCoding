@@ -1,4 +1,5 @@
-import * as blockEight from "./fonts/blockEight.mjs";
+import * as blockEight from "./graphics/font_blockEight.mjs";
+import * as palette from "./graphics/palette.mjs";
 
 /**
  * @module graphics2d
@@ -330,3 +331,4 @@ userObjectsAndFunctions.setScreenHeight = setScreenHeight;
 userObjectsAndFunctions.setCropMode = setCropMode;
 userObjectsAndFunctions.setPixelAspectRatio = setPixelAspectRatio;
 userObjectsAndFunctions.loadRetroScreen = loadRetroScreen;
+userObjectsAndFunctions.getColor = palette.getColor;
