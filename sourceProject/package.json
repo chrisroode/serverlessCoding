@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
-    "build": "webpack && npx jsdoc -r -c ./jsdoc.conf.json -d build/documentation"
+    "build": "webpack && npx jsdoc -r -c ./jsdoc.conf.json -d build/documentation",
+    "build-release": "npm run test && webpack && npx jsdoc -r -c ./jsdoc.conf.json -d build/documentation"
   },
   "author": "Chris Roode",
   "license": "GPL-3.0-or-later",
