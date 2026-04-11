@@ -1,3 +1,8 @@
+/**
+ * @module mouseInput
+ */
+
+
 import * as module_graphics2d from './graphics2d.mjs';
 
 const defaultMouseButtonObject = {
@@ -8,6 +13,7 @@ const defaultMouseButtonObject = {
 	click:false,
 	doubleClick:false,
 }
+
 
 
 
@@ -72,34 +78,34 @@ export function private_flushMouse() {
 
 function click(e) {
 	exec_preventDefault(e);
-	if (typeof mouseState.buttons[e.which] === 'undefined') {
-		mouseState.buttons[e.which] = {...defaultMouseButtonObject};
+	if (typeof mouseState.buttons[e.button] === 'undefined') {
+		mouseState.buttons[e.button] = {...defaultMouseButtonObject};
 	}
-	mouseState.buttons[e.which].click = true;
+	mouseState.buttons[e.button].click = true;
 	
 	
 }
 function doubleClick(e) {
 	exec_preventDefault(e);
-	if (typeof mouseState.buttons[e.which] === 'undefined') {
-		mouseState.buttons[e.which] = {...defaultMouseButtonObject};
+	if (typeof mouseState.buttons[e.button] === 'undefined') {
+		mouseState.buttons[e.button] = {...defaultMouseButtonObject};
 	}
-	mouseState.buttons[e.which].doubleClick = true;
+	mouseState.buttons[e.button].doubleClick = true;
 	
 }
 function mouseDown(e) {
 	exec_preventDefault(e);
-	if (typeof mouseState.buttons[e.which] === 'undefined') {
-		mouseState.buttons[e.which] = {...defaultMouseButtonObject};
+	if (typeof mouseState.buttons[e.button] === 'undefined') {
+		mouseState.buttons[e.button] = {...defaultMouseButtonObject};
 	}
-	mouseState.buttons[e.which].pressed = true;
+	mouseState.buttons[e.button].pressed = true;
 }
 function mouseUp(e) {
 	exec_preventDefault(e);
-	if (typeof mouseState.buttons[e.which] === 'undefined') {
-		mouseState.buttons[e.which] = {...defaultMouseButtonObject};
+	if (typeof mouseState.buttons[e.button] === 'undefined') {
+		mouseState.buttons[e.button] = {...defaultMouseButtonObject};
 	}
-	mouseState.buttons[e.which].willRelease = true;
+	mouseState.buttons[e.button].willRelease = true;
 }
 
 function mouseLeave(e) {

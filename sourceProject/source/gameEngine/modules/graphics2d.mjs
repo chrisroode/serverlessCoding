@@ -194,8 +194,8 @@ export function private_finishRendering() {
 
 /**
  * @function setScreenWidth
+ * @description Sets the width of the screen to the specified value.
  * @param {integer} x A range from 1-1920 to set the screen width. To set only width, use setScreenWidth.
- * @param {integer} y A range from 1-1920 to set the screen height.  To set only height, use setScreenHeight
  */
 export function setScreenWidth(x=internal.width) {
 	console.log(x, internal);
@@ -205,6 +205,13 @@ export function setScreenWidth(x=internal.width) {
 	) {
 		internal.width = x;
 	}}
+
+
+/**
+ * @function setScreenHeight
+ * @description Sets the height of the screen to the specified value.
+ * @param {integer} y A range from 1-1920 to set the screen height.  To set only height, use setScreenHeight
+ */
 export function setScreenHeight(y=internal.height) {
 	if (typeof y === 'number'
 		&& Math.floor(y) > 0
@@ -216,6 +223,7 @@ export function setScreenHeight(y=internal.height) {
 
 /**
  * @function setScreenDimensions
+ * @description Sets the dimensions of the screen to the specified value.
  * @param {integer} x A range from 1-1920 to set the screen width. To set only width, use setScreenWidth.
  * @param {integer} y A range from 1-1920 to set the screen height.  To set only height, use setScreenHeight
  */
@@ -225,11 +233,34 @@ export function setScreenDimensions(x=internal.width,y=internal.height) {
 	setScreenHeight(y);
 }
 
+
+/**
+ * @function setPixelAspectRatio
+ * @description Sets the squareness of the pixel.  This is not the size of the pixel, but the ratio of the width to the height of each pixel.
+ * @param {integer} width the width ratio for the pixel.
+ * @param {integer} height the height ratio for the pixel.
+ */
 export function setPixelAspectRatio(width,height=1) {
 	internal.pixelAspect = width/height;
 }
 
+
+/**
+ * @function loadRetroScreen
+ * @description sets the screen resolution and pixel aspect ratio to preset values to simulate retro computer systems.
+ * @param {enum_retroScreens} screen 
+ */
 export function loadRetroScreen(scr) {
+
+	/**
+	 * @constant enum_retroScreens
+	 * @property {string} snes Sets screen resolution to 256x227 with a 4:3 screen aspect ratio.
+	 * @property {string} apple2 Sets screen resolution to 280x192.
+	 * @property {string} cPet Sets screen resolution to 200x12.
+	 * @property {string} atari Sets screen resolution to 160x12.
+	 * @property {string} c64 Sets screen resolution to 320x200.
+	 * @property {string} ibm Sets screen resolution to 20x200.
+	 */
 	const _par = { //pixel aspet ratios.
 		snes:{
 			pixelRatio:7/6,
@@ -275,7 +306,7 @@ export function loadRetroScreen(scr) {
 
 
 
-export function printLogToScreen(arr) {
+export function private_printLogToScreen(arr) {
 	const font = blockEight
 	const maxLines = Math.floor(internal.height/font.lineHeight)-1;
 	while (arr.length > maxLines) {

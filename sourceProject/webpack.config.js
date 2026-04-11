@@ -29,7 +29,10 @@ export default [
 			minimize:true,
 		},
 		plugins:[
-			new webpack.DefinePlugin({'process.env.TRAINING_WHEELS':JSON.stringify(false),})
+			new webpack.DefinePlugin({
+				'process.env.TRAINING_WHEELS':JSON.stringify(false),
+				'process.env.IS_WEBPACK':JSON.stringify(true),
+			})
 		]
 	},
 	{
@@ -44,7 +47,10 @@ export default [
 			minimize:false,
 		},
 		plugins:[
-			new webpack.DefinePlugin({'process.env.TRAINING_WHEELS':JSON.stringify(true),})
+			new webpack.DefinePlugin({
+				'process.env.TRAINING_WHEELS':JSON.stringify(true),
+				'process.env.IS_WEBPACK':JSON.stringify(true),
+			})
 		]
 	}
 ];
